@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="teal_white">#ECECEC</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <!-- shade 1 -->
+    <color name="shade_1_700">#FF000000</color>
+    <color name="shade_1_600">#FF6B6B6B</color>
+    <color name="shade_1_500">#FF7C7C7C</color>
+    <color name="shade_1_400">#FF8E8E8E</color>
+    <color name="shade_1_300">#FFA0A0A0</color>
+    <color name="shade_1_200">#FFB2B2B2</color>
+    <color name="shade_7_100">#FFC4C4C4</color>
+
+    <!-- shade 2 -->
+    <color name="shade_2_700">#FF052524</color>
+    <color name="shade_2_600">#FF1ABDBC</color>
+    <color name="shade_2_500">#FF1DDBDB</color>
+    <color name="shade_2_400">#FF39E3E3</color>
+    <color name="shade_2_300">#FF59E7E8</color>
+    <color name="shade_2_200">#FF78ECEC</color>
+    <color name="shade_2_100">#FF98F0F1</color>
+
+    <!-- shade 3 -->
+    <color name="shade_3_700">#FF2E9090</color>
+    <color name="shade_3_600">#FF3CB4B5</color>
+    <color name="shade_3_500">#FF3DB9BB</color>
+    <color name="shade_3_400">#FF55C5C7</color>
+    <color name="shade_3_300">#FF70CED0</color>
+    <color name="shade_3_200">#FF8CD7DA</color>
+    <color name="shade_3_100">#FFA6E0E1</color>
+
+    <!-- shade 4 -->
+    <color name="shade_4_700">#FF1ED4C5</color>
+    <color name="shade_4_600">#FF1ABBAC</color>
+    <color name="shade_4_500">#FF1EDACB</color>
+    <color name="shade_4_400">#FF3BE3D4</color>
+    <color name="shade_4_300">#FF59E7DB</color>
+    <color name="shade_4_200">#FF78ECE1</color>
+    <color name="shade_4_100">#FF99F0E8</color>
+
+    <!-- shade 5 -->
+    <color name="shade_5_700">#FF99F0E8</color>
+    <color name="shade_5_600">#FF00D6BC</color>
+    <color name="shade_5_500">#FF00F9DC</color>
+    <color name="shade_5_400">#FF1FFFE4</color>
+    <color name="shade_5_300">#FF42FFE7</color>
+    <color name="shade_5_200">#FF66FFEB</color>
+    <color name="shade_5_100">#FF89FFF1</color>
+
+    <!-- shade 6 -->
+    <color name="shade_6_100">#D5E9E9</color>
+
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/upload_btn_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/upload_books_dialog"
+    android:orientation="vertical"
+    tools:context=".uploadPDF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Book Title"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Input_Book_Title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_round"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/shade_3_700"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Author"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Input_Author"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_round"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/shade_3_700"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Select PDF File"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0">
+
+            <EditText
+                android:id="@+id/Input_PDF_File"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="@drawable/input_half_radius"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="#00838F"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/browse_pdf"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/shade_2_700"
+                android:drawableStart="@drawable/ic_bxs_file_pdf"
+                android:paddingLeft="5dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/upload_pdf_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/upload_btn"
+            android:drawableStart="@drawable/ic_bxs_cloud_upload"
+            android:drawingCacheQuality="auto"
+            android:paddingLeft="110dp"
+            android:paddingRight="110dp"
+            android:text="upload"
+            android:textColor="@color/shade_6_100"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

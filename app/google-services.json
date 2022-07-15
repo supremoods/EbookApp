@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "473682187924",
+    "project_id": "ebookapp-b7ce7",
+    "storage_bucket": "ebookapp-b7ce7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473682187924:android:105f9be4af6e4f2955c681",
+        "android_client_info": {
+          "package_name": "com.group8.casestudyebookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473682187924-mjj4cn31v9sug6bndq5hk563f10347pv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.group8.casestudyebookapp",
+            "certificate_hash": "29856e4b34aeb7f614b473678df69bc461869cb1"
+          }
+        },
+        {
+          "client_id": "473682187924-gklssiro919346n2h5jertpslp7c5m45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc7WrNLugpdkFC4dZCGBe_0GbvyId8T8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473682187924-gklssiro919346n2h5jertpslp7c5m45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
